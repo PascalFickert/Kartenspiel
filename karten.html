@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Karten Mischen</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="..\css\karten.css">
+</head>
+<body>
+
+	<h1>Viel Glück</h1>
+	<div id = "felder">
+	<p> Guthaben: </p>
+	<input type = "text" name = "guthaben" id="guthaben" value = "200"/>
+	<p> Gewinne: </p>
+	<input type = text name = "gewinne" id = "gewinne" value = "0"/>
+	<p> Einsatz: </p>
+	<input type="text" name = "ein "id="ein" value = "0" />
+    <input type="button" id="cal" value="LOS!" onclick= startGame() />
+
+	<input class="restart" type="button" value="Restart" id="Restart" onclick=naechsteRunde()>
+	</div>
+
+	<input type = "image" width = 14% id = "SoN" name = "SiegOderNiederlage" value/>
+	<script type="text/javascript" src="..\js\carte.js"></script>
+	<div id = "karten">
+    <input type = "image" id = "K1" name = "bube" value/>
+    <input type = "image" id = "K2" name = "dame" value/>
+    <input type = "image" id = "K3" name = "keonig" value/>
+    </div>
+
+</body>
+</html>
